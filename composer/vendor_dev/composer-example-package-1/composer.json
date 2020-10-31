@@ -1,0 +1,28 @@
+{
+	"name": "michaelhabib/composer-example-package-1",
+	"type": "library",
+	"description": "My first packagist package",
+
+	"authors": [
+		{
+			"name": "Michael Habib",
+			"email": "contact@michaelhabib.name"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"": [
+				"src/"
+			]
+		},
+		"files": [
+		]
+	},
+	"config": {
+	},
+	"require": {
+
+	},
+	"require-dev": {
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"name": "michaelhabib/tutorial_php_composer",
+	"authors": [
+		{
+			"name": "Michael Habib",
+			"email": "contact@michaelhabib.name"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"MichaelHabib\\TutorialPhp\\": [
+				"src"
+			]
+		},
+		"files": [
+		]
+	},
+	"config": {
+	},
+	"require": {
+		"michaelhabib/composer-example-package-1": "dev-master"
+	},
+	"require-dev": {
+
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "./vendor_dev/composer-example-package-1",
+			"options": {
+				"symlink": true
+			}
+		}
+	]
+}
